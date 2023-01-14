@@ -6,7 +6,7 @@ const Bhome = () => {
         <div className="flex flex-col justify-evenly">
         <h2 className='font-bold text-2xl underline underline-offset-4'>PRINTING & BANNERS</h2>
 
-         <button className=" text-white w-80 px-12 py-4 font-medium bg-rose-400 rounded mt-4 hover:bg-white hover:text-black ease-in-out delay-100 duration-500 hover:border-2 hover:text-black hover:border-rose-400 hover:bg-transparent">Contact us <FaArrowRight className="inline ml-1"/></button>
+         <button className=" text-white w-80 px-12 py-4 font-medium bg-rose-400 rounded mt-4 hover:bg-white  ease-in-out delay-100 duration-500 hover:border-2 hover:text-black hover:border-rose-400 hover:bg-transparent">Contact us <FaArrowRight className="inline ml-1"/></button>
 
             {/* banner bottom */}
           <div className="flex gap-4">

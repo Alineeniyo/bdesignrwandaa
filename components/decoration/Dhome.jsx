@@ -12,7 +12,7 @@ import { Navigation } from "swiper";
 
 const Dhome = ()=> {
     const background = {
-         background:"rgba(0,0,0,0.6) url(images/image4.jpg)",
+         background:"rgba(0,0,0,0.6) url(image/image3.jpg)",
          backgroundBlendMode:"darken",
          backgroundRepeat:"no-repeat",
          backgroundSize:"cover",

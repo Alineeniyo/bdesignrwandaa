@@ -10,17 +10,17 @@ const Bmiddle = () => {
                 <div className="">
                     <h2 className='mb-4 font-bold text-2xl text-rose-400'>OUTDOOR VS INDOOR</h2>
                     <p className='font-semibold mb-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quia unde ex cumque dignissimos exercitationem repellendus atque quaerat dolore eveniet.</p>
-                    <img src="images/image1.jpg" alt="image-right" className='w-full' />
+                    <img src="image/image1.jpg" alt="image-right" className='w-full' />
                 </div>
              </div>
             {/* right */}
              <div className="grid grid-cols-3 gap-4 w-full ">
-                <img src="images/image5.jpg" alt="img-in" className='h-full object-cover rounded-lg'/>
-                <img src="images/image5.jpg" alt="img-in" className='h-full object-cover rounded-lg'/>
-                <img src="images/image5.jpg" alt="img-in" className='h-full object-cover rounded-lg'/>
-                <img src="images/image5.jpg" alt="img-in" className='h-full object-cover rounded-lg'/>
-                <img src="images/image5.jpg" alt="img-in" className='h-full object-cover rounded-lg'/>
-                <img src="images/image5.jpg" alt="img-in" className='h-full object-cover rounded-lg'/>                
+                <img src="image/image3.jpg" alt="img-in" className='h-full object-cover rounded-lg'/>
+                <img src="image/image3.jpg" alt="img-in" className='h-full object-cover rounded-lg'/>
+                <img src="image/image3.jpg" alt="img-in" className='h-full object-cover rounded-lg'/>
+                <img src="image/image3.jpg" alt="img-in" className='h-full object-cover rounded-lg'/>
+                <img src="image/image3.jpg" alt="img-in" className='h-full object-cover rounded-lg'/>
+                <img src="image/image3.jpg" alt="img-in" className='h-full object-cover rounded-lg'/>                
              </div>
         </div>
     </div>

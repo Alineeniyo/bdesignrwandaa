@@ -9,11 +9,11 @@ const Smiddle = () => {
             <div className="grid grid-row gap-4">
 
               <div className="flex flex-col gap-0 w-80 h-80 rounded bg-slate-200 p-4 cursor-pointer">
-                <img src="images/image5.jpg" alt="" className='h-full object-cover'/>
+                <img src="image/image2.jpg" alt="" className='h-full object-cover'/>
                 <h4 className='w-full py-2 px-1.5 font-medium bg-rose-400 text-white'>Logo Design</h4>
               </div>
               <div className="flex flex-col gap-0 w-80 h-80 rounded bg-slate-200 p-4 cursor-pointer">
-                <img src="images/image5.jpg" alt="" className='h-full object-cover'/>
+                <img src="image/image2.jpg" alt="" className='h-full object-cover'/>
                 <h4 className='w-full py-2 px-1.5 font-medium bg-rose-400 text-white'>Logo Design</h4>
               </div>
 
@@ -21,11 +21,11 @@ const Smiddle = () => {
             {/* middle */}
                 <div className="grid grid-row gap-4">
                     <div className="flex flex-col gap-0 w-80 h-96 rounded bg-slate-200 p-4 cursor-pointer">
-                        <img src="images/image5.jpg" alt="" className='h-full object-cover'/>
+                        <img src="image/image2.jpg" alt="" className='h-full object-cover'/>
                         <h4 className='w-full py-2 px-1.5 font-medium bg-rose-400 text-white'>Logo Design</h4>
                     </div>
                     <div className="flex flex-col gap-0 w-80 h-96 rounded bg-slate-200 p-4 cursor-pointer">
-                        <img src="images/image5.jpg" alt="" className='h-full object-cover'/>
+                        <img src="image/image2.jpg" alt="" className='h-full object-cover'/>
                         <h4 className='w-full py-2 px-1.5 font-medium bg-rose-400 text-white'>Logo Design</h4>
                   </div>
                </div>
@@ -33,11 +33,11 @@ const Smiddle = () => {
             <div className="">
                 <div className="grid grid-row gap-4">
                     <div className="flex flex-col gap-0 w-80 h-80 rounded bg-slate-200 p-4 cursor-pointer">
-                        <img src="images/image5.jpg" alt="" className='h-full object-cover'/>
+                        <img src="image/image2.jpg" alt="" className='h-full object-cover'/>
                         <h4 className='w-full py-2 px-1.5 font-medium bg-rose-400 text-white'>Logo Design</h4>
                     </div>
                     <div className="flex flex-col gap-0 w-80 h-80 rounded bg-slate-200 p-4 cursor-pointer">
-                        <img src="images/image5.jpg" alt="" className='h-full object-cover'/>
+                        <img src="image/image2.jpg" alt="" className='h-full object-cover'/>
                         <h4 className='w-full py-2 px-1.5 font-medium bg-rose-400 text-white'>Logo Design</h4>
                   </div>
                </div>
@@ -46,11 +46,11 @@ const Smiddle = () => {
             <div className="">
                 <div className="grid grid-row gap-4">
                     <div className="flex flex-col gap-0 w-80 h-96 rounded bg-slate-200 p-4 cursor-pointer">
-                        <img src="images/image5.jpg" alt="" className='h-full object-cover'/>
+                        <img src="image/image2.jpg" alt="" className='h-full object-cover'/>
                         <h4 className='w-full py-2 px-1.5 font-medium bg-rose-400 text-white'>Logo Design</h4>
                     </div>
                     <div className="flex flex-col gap-0 w-80 h-96 rounded bg-slate-200 p-4 cursor-pointer">
-                        <img src="images/image5.jpg" alt="" className='h-full object-cover'/>
+                        <img src="image/image2.jpg" alt="" className='h-full object-cover'/>
                         <h4 className='w-full py-2 px-1.5 font-medium bg-rose-400 text-white'>Logo Design</h4>
                   </div>
                </div>

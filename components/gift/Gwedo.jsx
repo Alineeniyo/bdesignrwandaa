@@ -4,7 +4,7 @@ const Gwedo = () => {
   return (
     <div className='grid grid-cols-2 container mx-auto gap-2 mb-16'>
         <div className="w-full">
-            <img src="images/image3.jpg" alt="wedo_image" className='object-fit h-80 w-11/12 rounded-md' />
+            <img src="image/image3.jpg" alt="wedo_image" className='object-fit h-80 w-11/12 rounded-md' />
         </div>
         <div className="">
             <h2 className='font-bold text-2xl mb-8 text-rose-400'>What Gift we do</h2>

@@ -13,7 +13,7 @@ const Experiance = () => {
              <p className='font-medium'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni impedit quia quod veritatis ipsum, vel facere modi architecto consequatur et odio enim dolor consectetur sit ex explicabo ratione nihil iure? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda ipsa suscipit, id eveniet dignissimos natus.</p>
              <div className="mt-10 flex justify-evenly">
               <button className=" text-white px-28 py-4 font-medium bg-rose-400 rounded mt-4 hover:bg-white hover:text-black ease-in-out delay-100 duration-500 hover:border-2 hover:border-rose-400">Contact us</button>
-               <button className=" text-black border-2 rounded-md border-rose-400 px-28 py-4 font-medium bg-trasparent rounded mt-4 ease-in-out delay-100 duration-1000">Contact us</button>
+               <button className=" text-black border-2 rounded-md border-rose-400 px-28 py-4 font-medium bg-trasparent mt-4 ease-in-out delay-100 duration-1000">Contact us</button>
              </div>
 
          </div>

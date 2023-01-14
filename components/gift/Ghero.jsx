@@ -11,7 +11,7 @@ const Ghero = () => {
         </div>
         {/* image */}
         <div className="">
-            <img src="images/image1.jpg" alt="gift_img" className='object-fit h-[30rem] rounded-xl'/>
+            <img src="image/image1.jpg" alt="gift_img" className='object-fit h-[30rem] rounded-xl'/>
         </div>
     </div>
   )
