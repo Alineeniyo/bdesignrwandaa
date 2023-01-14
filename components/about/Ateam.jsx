@@ -40,7 +40,7 @@ const Ateam = () => {
       className='container mx-auto'
       >
         <SwiperSlide className='border-2 border-rose-400 w-80 h-80 p-10'>
-        <img src="images/image1.jpg" alt="worker" />
+        <img src="image/image2.jpg" alt="worker" />
           <p className='text-slate-400'>CEO and Project Manager</p>
           <h4 className='font-bold text-xl mb-1'>Aline</h4>
           <div className="flex gap-4">
@@ -57,7 +57,7 @@ const Ateam = () => {
        </SwiperSlide>
                
         <SwiperSlide className='border-2 border-rose-400 w-80 h-80 p-10'>
-        <img src="images/image1.jpg" alt="worker" />
+        <img src="image/image2.jpg" alt="worker" />
           <p className='text-slate-400'>CEO and Project Manager</p>
           <h4 className='font-bold text-xl mb-1'>Aline</h4>
           <div className="flex gap-4">
@@ -73,7 +73,7 @@ const Ateam = () => {
           </div>
        </SwiperSlide>
        <SwiperSlide className='border-2 border-rose-400 w-80 h-80 p-10'>
-        <img src="images/image1.jpg" alt="worker" />
+        <img src="image/image2.jpg" alt="worker" />
           <p className='text-slate-400'>CEO and Project Manager</p>
           <h4 className='font-bold text-xl mb-1'>Aline</h4>
           <div className="flex gap-4">
@@ -89,7 +89,7 @@ const Ateam = () => {
           </div>
        </SwiperSlide>
        <SwiperSlide className='border-2 border-rose-400 w-80 h-80 p-10'>
-        <img src="images/image1.jpg" alt="worker" />
+        <img src="image/image2.jpg" alt="worker" />
           <p className='text-slate-400'>CEO and Project Manager</p>
           <h4 className='font-bold text-xl mb-1'>Aline</h4>
           <div className="flex gap-4">
@@ -105,7 +105,7 @@ const Ateam = () => {
           </div>
        </SwiperSlide>
        <SwiperSlide className='border-2 border-rose-400 w-80 h-80 p-10'>
-        <img src="images/image1.jpg" alt="worker" />
+        <img src="image/image2.jpg" alt="worker" />
           <p className='text-slate-400'>CEO and Project Manager</p>
           <h4 className='font-bold text-xl mb-1'>Aline</h4>
           <div className="flex gap-4">

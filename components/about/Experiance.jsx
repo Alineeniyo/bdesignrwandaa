@@ -30,9 +30,9 @@ const Experiance = () => {
                 <div>
                     <h4 className='font-bold text-center text-rose-400 mb-2 text-1xl'>UV PRINTING</h4>
                     <div className="flex gap-4 ml-14 mb-4">
-                       <img src="images/image4.jpg" alt="machine" className='object-fit h-80 w-80 mt-2'/>
-                       <img src="images/image4.jpg" alt="machine" className='object-fit h-96 w-5/12'/>
-                       <img src="images/image4.jpg" alt="machine" className='object-fit h-80 w-80 mt-2'/>
+                       <img src="image/image2.jpg" alt="machine" className='object-fit h-80 w-80 mt-2'/>
+                       <img src="image/image2.jpg" alt="machine" className='object-fit h-96 w-5/12'/>
+                       <img src="image/image2.jpg" alt="machine" className='object-fit h-80 w-80 mt-2'/>
                     </div> 
                 </div>
             </div>
