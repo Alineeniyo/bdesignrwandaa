@@ -37,7 +37,7 @@ const Post = () => {
       grabCursor='true'
       centeredSlide='true'
       navigation ={nav }
-      
+      className="bg-slate-400"
     >
       <SwiperSlide>
         <div className="">
