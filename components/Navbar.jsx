@@ -10,7 +10,7 @@ const Navbar = () => {
 const [navbar , setNavbar] = useState(false);
 
   return (
-     <nav className='bg-slate-400 px-6 py-2  w-screen  z-50'>
+     <nav className='bg-slate-400 px-6 py-2  w-screen fixed z-50'>
       <div className='flex justify-between '>
         {/* sidenav_main_left */}
         <Link href="/">
@@ -53,29 +53,29 @@ const [navbar , setNavbar] = useState(false);
     </div>
     {/* responsive navbar */}
       <div className={`${navbar?"md:inline-block": "hidden"}`}>
-        <ul className='mt-2 sm:h-screen'>
-          <li className='font-semibold text-1xl hover:text-orange-500 sm:p-2' onClick={()=>setNavbar(!navbar)}>
+        <ul className='mt-8 h-screen flex flex-col space-y-10'>
+          <li className='font-semibold text-1xl hover:text-orange-500 ' onClick={()=>setNavbar(!navbar)}>
             <Link href='/'>HOME</Link>
           </li>
-          <li className='font-semibold hover:text-orange-500 sm:p-2 text-1xl' onClick={()=>setNavbar(!navbar)}>
+          <li className='font-semibold hover:text-orange-500  text-1xl' onClick={()=>setNavbar(!navbar)}>
             <Link href='/about'>ABOUT US</Link>
           </li>
-          <li className='font-semibold hover:text-orange-500 sm:p-2 text-1xl' onClick={()=>setNavbar(!navbar)}>
+          <li className='font-semibold hover:text-orange-500  text-1xl' onClick={()=>setNavbar(!navbar)}>
             <Link href='/banner'>SIGNS & BANNER</Link>
           </li>
-          <li className='font-semibold hover:text-orange-500 sm:p-2 text-1xl' onClick={()=>setNavbar(!navbar)}>
+          <li className='font-semibold hover:text-orange-500  text-1xl' onClick={()=>setNavbar(!navbar)}>
             <Link href='/printing'>PRINTING & BRANDING</Link>
           </li>
-          <li className='font-semibold hover:text-orange-500 sm:p-2 text-1xl' onClick={()=>setNavbar(!navbar)}>
+          <li className='font-semibold hover:text-orange-500  text-1xl' onClick={()=>setNavbar(!navbar)}>
             <Link href='/sticker'>PROMOTION MATERIALS</Link>
           </li>
-          <li className='font-semibold hover:text-orange-500 sm:p-2 text-1xl' onClick={()=>setNavbar(!navbar)}>
+          <li className='font-semibold hover:text-orange-500  text-1xl' onClick={()=>setNavbar(!navbar)}>
             <Link href='/gift'>GIFT MAKING</Link>
           </li>
-          <li className='font-semibold hover:text-orange-500 sm:p-2 text-1xl' onClick={()=>setNavbar(!navbar)}>
+          <li className='font-semibold hover:text-orange-500  text-1xl' onClick={()=>setNavbar(!navbar)}>
             <Link href='/decoration'>DECORATION</Link>
           </li>
-           <li className='font-semibold hover:text-orange-500 sm:p-2 text-1xl' onClick={()=>setNavbar(!navbar)}>
+           <li className='font-semibold hover:text-orange-500  text-1xl' onClick={()=>setNavbar(!navbar)}>
             <Link href='/contact'>CONTACT US</Link>
           </li>
         </ul>
