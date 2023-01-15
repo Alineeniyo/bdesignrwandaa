@@ -10,6 +10,9 @@
   },
   "dependencies": {
     "@next/font": "13.1.2",
+    "@portabletext/react": "^2.0.0",
+    "@sanity/client": "^4.0.1",
+    "@sanity/image-url": "^1.0.1",
     "@types/date-fns": "^2.6.0",
     "@types/node": "18.11.18",
     "@types/react": "18.0.26",
@@ -19,6 +22,7 @@
     "eslint-config-next": "13.1.2",
     "framer-motion": "^8.4.3",
     "next": "13.1.2",
+    "next-sanity": "^4.0.6",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.7.1",

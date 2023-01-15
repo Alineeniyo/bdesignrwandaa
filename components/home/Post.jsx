@@ -33,10 +33,6 @@ const Post = () => {
       slidesPerView={5}
       breakpoints={point}
       loop={true}
-      fade ='true'
-      grabCursor='true'
-      centeredSlide='true'
-      navigation ={nav }
       className="bg-slate-400"
     >
       <SwiperSlide>

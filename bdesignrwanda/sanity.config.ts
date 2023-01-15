@@ -5,9 +5,9 @@ import {schemaTypes} from './schemas'
 
 export default defineConfig({
   name: 'default',
-  title: 'bdesign_backend',
+  title: 'bdesignrwanda',
 
-  projectId: 'icebu3yq',
+  projectId: 'grzzsf37',
   dataset: 'production',
 
   plugins: [deskTool(), visionTool()],
