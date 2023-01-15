@@ -1,6 +1,6 @@
 import React from 'react';
 // home page export
-export { default as Hero } from './home/hero';
+export {default as Home } from './home/Home'
 export { default as Brand } from './home/Brand';
 export { default as Post } from './home/Post';
 export {default as Test } from './home/Test';
