@@ -29,6 +29,26 @@ export interface Wedo extends sanityBody{
   worktitle_onimage:string
   
 }
+
+// wedo section 
+export interface Wedodesc extends sanityBody{
+  _type:"wedo_description";
+  subwork_desc:string 
+}
+export interface Wedoboxes extends sanityBody{
+  _type:"wedo_boxes";
+  work_title:string 
+  work_image:image
+}
+export interface Wedonew extends sanityBody{
+  _type:"wedo_new'";
+  text_new:string 
+  image_new:image
+}
+
+
+
+
 export interface Vision extends sanityBody{
   _type:"vision";
   mission_subtitle:string

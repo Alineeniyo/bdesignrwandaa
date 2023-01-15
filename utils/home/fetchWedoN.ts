@@ -1,7 +1,7 @@
-import {Wedo} from '../../typing'
-export const fetchWedo = async() => {
-    const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/home/getWedo`);
+import {Wedonew} from '../../typing'
+export const fetchWedoN = async() => {
+    const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/home/getWedonew`);
     const data = await res.json()
-    const wedo:Wedo[] = data.wedo
-    return wedo;
+    const wedon:Wedonew[] = data.wedon
+    return wedon;
 } 
