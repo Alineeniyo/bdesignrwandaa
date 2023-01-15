@@ -4,7 +4,7 @@ import {FaFacebookF , FaInstagram ,FaLinkedinIn , FaArrowRight} from 'react-icon
 
 const Footer = () => {
   return (
-    <footer className='w-screen bg-slate-800 text-slate-200 pb-2 pt-12'>
+    <footer className='w-screen bg-slate-800 text-slate-200 pb-2 pt-12 '>
       {/* upper text */}
         <div className='flex flex-col md:flex-row justify-evenly py-4 sm:gap-11 pl-20 sm:space-y-4'>
            {/* quick link */}

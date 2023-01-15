@@ -1,4 +1,7 @@
-
+import {Testimonial} from '../../typing'
+type Props = {
+    test:Testimonial[]
+}
 // import Swiper core and required modules
 import {Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -8,10 +11,10 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 // Import Swiper styles
 import 'swiper/css';
- const Test = () =>{
+ const Test = ({test}:Props) =>{
  
   return (
-    <>
+    <section>
     <div className="container mx-auto grid lg:grid-cols-2 mb-14 md: sm:grid-cols-1">
         {/* image */}
          <video  controls className="w-full">
@@ -63,7 +66,7 @@ import 'swiper/css';
     </Swiper>
 
     </div>
-    </>
+    </section>
   );
 }
 

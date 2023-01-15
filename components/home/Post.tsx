@@ -1,4 +1,8 @@
 import React from 'react'
+import {New_post} from '../../typing'
+type Props = {
+    post:New_post[]
+}
 // import Swiper core and required modules
 import { Navigation} from 'swiper';
 
@@ -6,7 +10,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
-const Post = () => {
+const Post = ({post}:Props) => {
   const point = {
      0:{
        slidesPerView:1

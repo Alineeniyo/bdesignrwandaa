@@ -4,7 +4,7 @@ export {default as Hero } from './home/Home'
 export { default as Brand } from './home/Brand';
 export { default as Post } from './home/Post';
 export {default as Test } from './home/Test';
-export {default as Wedo } from './home/Wedo';
+export {default as Wedos } from './home/Wedo';
 // about page export
 export {default as Ahome } from './about/Ahome';
 export {default as Aoffice } from './about/Aoffice';
