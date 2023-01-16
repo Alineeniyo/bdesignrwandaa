@@ -47,8 +47,6 @@ export interface Wedonew extends sanityBody{
 }
 
 
-
-
 export interface Vision extends sanityBody{
   _type:"vision";
   mission_subtitle:string
@@ -71,4 +69,24 @@ export interface Popular_brand extends sanityBody{
   _type:"popular_brand";
   popularbrand_logo:Image
   popularbrand_title:string
+}
+
+
+export interface Category extends sanityBody{
+  _type:"category"
+  title:string
+  slug:{
+    _type:"slug";
+    current:string;
+  }
+}
+export interface Sticker extends sanityBody{
+  _type:"stiker"
+  title:string
+  sticker_image:Image[]
+  sticker_title:string
+  category:{
+    _type:"reference"
+    _ref:string
+  }
 }

@@ -31,50 +31,14 @@ const Post = ({post}:Props) => {
     <div className='container mx-auto mt-14 md:w-9/12'>
         <h1 className='font-bold text-2xl mb-4 text-center'>What new to day?</h1>
          <Swiper
-      // install Swiper modules
-      modules={[Navigation]}
-      spaceBetween={12}
-      slidesPerView={5}
-      breakpoints={point}
-      loop={true}
-      className="bg-slate-400"
-    >
-      <SwiperSlide>
-        <div className="">
-            <img src="image/image1.jpg" alt="new post" className='object-fit h-80 w-60'/>
-        </div>
-        <h3 className='font-bold mt-1'>Best logo</h3>
-      </SwiperSlide>
-      <SwiperSlide>
-        <div className="">
-            <img src="image/image2.jpg" alt="new post" className='object-fit h-80 w-60'/>
-        </div>
-        <h3 className='font-bold mt-1'>Best logo</h3>
-      </SwiperSlide>
-      <SwiperSlide>
-        <div className="">
-            <img src="image/image3.jpg" alt="new post" className='object-fit h-80 w-60'/>
-        </div>
-        <h3 className='font-bold mt-1'>Best logo</h3>
-      </SwiperSlide>
-      <SwiperSlide>
-        <div className="">
-            <img src="image/image2.jpg" alt="new post" className='object-fit h-80 w-60'/>
-        </div>
-        <h3 className='font-bold mt-1'>Best logo</h3>
-      </SwiperSlide>
-      <SwiperSlide>
-        <div className="">
-            <img src="image/image2.jpg" alt="new post" className='object-fit h-80 w-60'/>
-        </div>
-        <h3 className='font-bold mt-1'>Best logo</h3>
-      </SwiperSlide>
-      <SwiperSlide>
-        <div className="">
-            <img src="image/image1.jpg" alt="new post" className='object-fit h-80 w-60'/>
-        </div>
-        <h3 className='font-bold mt-1'>Best logo</h3>
-      </SwiperSlide>
+            // install Swiper modules
+            modules={[Navigation]}
+            spaceBetween={12}
+            slidesPerView={5}
+            breakpoints={point}
+            loop={true}
+            className="bg-slate-400"
+             >
       <SwiperSlide>
         <div className="">
             <img src="image/image1.jpg" alt="new post" className='object-fit h-80 w-60'/>

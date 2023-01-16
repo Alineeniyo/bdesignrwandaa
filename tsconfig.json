@@ -19,6 +19,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/index.js", "bdesignrwanda/tailwind.config.js", "pages/index.tsx", "components/home/Home.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/index.js", "bdesignrwanda/tailwind.config.js", "pages/index.tsx", "components/home/Home.tsx", "components/stiker/Sgaller.tsx"],
   "exclude": ["node_modules"]
 }
