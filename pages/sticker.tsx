@@ -12,4 +12,5 @@ const sticker = () => {
   )
 }
 
+export default sticker
 

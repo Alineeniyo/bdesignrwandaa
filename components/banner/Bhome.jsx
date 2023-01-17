@@ -2,7 +2,7 @@ import React from 'react'
 import {FaFacebookF , FaInstagram ,FaLinkedinIn , FaArrowRight} from 'react-icons/fa'
 const Bhome = () => {
   return (
-    <div className='grid grid-cols-2 gap-8 container mx-auto mb-20 mt-10'>
+    <div className='grid grid-cols-2 gap-8 container mx-auto mb-20 mt-28'>
         <div className="flex flex-col justify-evenly">
         <h2 className='font-bold text-2xl underline underline-offset-4'>PRINTING & BANNERS</h2>
 
@@ -24,7 +24,7 @@ const Bhome = () => {
 
          </div>
         <div>
-            <img src="images/banner.png" alt="two_slides_image" />
+            <img src="image/banner.png" alt="two_slides_image" />
         </div>
     </div>
   )

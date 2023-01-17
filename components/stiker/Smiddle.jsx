@@ -2,9 +2,9 @@ import React from 'react'
 
 const Smiddle = () => {
   return (
-    <div className='container mx-auto mb-28'>
+    <div className='container mx-auto mb-28 p-2'>
         {/* many boxes */}
-          <div className="grid grid-cols-4">
+          <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 gap-12">
             {/* left */}
             <div className="grid grid-row gap-4">
 

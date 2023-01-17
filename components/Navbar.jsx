@@ -10,7 +10,7 @@ const Navbar = () => {
 const [navbar , setNavbar] = useState(false);
 
   return (
-     <nav className='bg-slate-400 px-6 py-2  w-screen fixed z-50'>
+     <nav className='bg-black px-6 py-2  w-screen fixed z-50'>
       <div className='flex justify-between '>
         {/* sidenav_main_left */}
         <Link href="/">
@@ -20,7 +20,7 @@ const [navbar , setNavbar] = useState(false);
         </Link>
 
         {/* list menu */}
-        <ul className='hidden  md:flex gap-6 justify-center text-center pt-2 md:px-10'>
+        <ul className='hidden  md:flex gap-6 justify-center text-center pt-2 md:px-10 text-white'>
           <li className='font-semibold hover:text-orange-500'>
             <Link href='/'>HOME</Link>
           </li>
@@ -48,12 +48,12 @@ const [navbar , setNavbar] = useState(false);
         </ul>
 
         <button className='md:hidden text-3xl ' onClick={() => setNavbar(!navbar)}>
-            {navbar? <RiCloseFill/>:<GiHamburgerMenu/>}
+            {navbar? <RiCloseFill className='text-white'/>:<GiHamburgerMenu className='text-white'/>}
         </button>
     </div>
     {/* responsive navbar */}
       <div className={`${navbar?"md:inline-block": "hidden"}`}>
-        <ul className='mt-8 h-screen flex flex-col space-y-10'>
+        <ul className='mt-8 h-screen flex flex-col space-y-10 text-white'>
           <li className='font-semibold text-1xl hover:text-orange-500 ' onClick={()=>setNavbar(!navbar)}>
             <Link href='/'>HOME</Link>
           </li>
